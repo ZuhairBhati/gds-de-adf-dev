@@ -1,0 +1,9 @@
+{
+	"name": "de-azure-data-fact",
+	"location": "westus3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f0ebd1fb-85b3-4a2b-982d-424738366ef1",
+		"tenantId": "00a80b04-a541-4049-8f46-6731885943ad"
+	}
+}

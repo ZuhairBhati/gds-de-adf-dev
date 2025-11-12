@@ -1,0 +1,35 @@
+{
+	"name": "SalesTarget",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake_Conn",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "YEAR_ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "MONTH_ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "TOTALSALES",
+				"type": "NUMBER",
+				"precision": 18,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "PUBLIC",
+			"table": "SALESAGGREGATE"
+		}
+	}
+}

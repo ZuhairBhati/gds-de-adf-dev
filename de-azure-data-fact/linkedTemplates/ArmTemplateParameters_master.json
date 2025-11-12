@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "de-azure-data-fact"
+		},
+		"ADLS_Conn_accountKey": {
+			"value": ""
+		},
+		"Snowflake_Conn_password": {
+			"value": ""
+		},
+		"ADLS_Conn_properties_typeProperties_url": {
+			"value": "https://zbadlsstorageacc.dfs.core.windows.net/"
+		},
+		"Snowflake_Conn_properties_typeProperties_database": {
+			"value": "SALES_MART"
+		},
+		"Snowflake_Conn_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"Snowflake_Conn_properties_typeProperties_host": {
+			"value": "suntwea-vp98093.snowflakecomputing.com"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
